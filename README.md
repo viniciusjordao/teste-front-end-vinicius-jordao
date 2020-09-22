@@ -56,4 +56,4 @@ Seria muito interessante se você pudesse trabalhar com algumas das tecnologias 
 
 Caso tenha ficado alguma dúvida entre em contato com [rtapia@haoc.com.br](mailto:rtapia@haoc.com.br).
 
-Boa sorte!
+console.log('Boa sorte!')
