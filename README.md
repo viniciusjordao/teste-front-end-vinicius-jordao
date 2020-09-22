@@ -4,60 +4,56 @@ Olá caro desenvolvedor front-end, nesse teste analisaremos seu conhecimento ger
 
 ## Descrição do teste
 
-Essa avaliação consiste em testar seus conhecimentos de HTML, CSS, JavaScript e demais tecnologias front-end. Você será responsável por desenvolver um layout simples, presente no link ao lado, com elementos separados e devidamente detalhados.
+Essa avaliação consiste em testar seus conhecimentos de HTML, CSS, JavaScript e demais tecnologias front-end. Você será responsável por desenvolver um layout simples, presente no link ao lado [Haoc-Projeto-Frontend](https://xd.adobe.com/view/997b3d87-a170-4efe-b127-0dcd0e25a7c3-cc28/), com elementos separados e devidamente detalhados.
 
 O tempo ideal para realização da tarefa é de **3 dias**. Também consideramos que, se demorar pouco mais do que isso, mas entregar um projeto melhor estruturado e com tecnologias mais recentes, também será tão válido quanto o de 3 dias.
 
 * Prazo ideal: 3 dias
 * Prazo máximo: 7 dias
 
-**front-end-test-page-01**
-
-[<img src="https://github.com/superarelucas/front-end-test/blob/master/assets/front-end-test-page-01.jpg?raw=true">]()
-**front-end-test-page-02**
-[<img src="https://github.com/superarelucas/front-end-test/blob/master/assets/front-end-test-page-02.jpg?raw=true">]()
-
 ## O que você precisará fazer
 
-Uma das duas opções abaixo é imprescindível que seja feita. Não aceitaremos pacote .zip, .rar ou qualquer outra extensão/arquivo que não seja enviado via GIT.
+A forma de entregar o projeto deve ser feita pelo GitHub, através do processo descrito abaixo:
 
-* Faça um fork desse repositório e clone para a sua máquina.
-* Crie *uma* das duas páginas dentro da pasta assets.
-* Dê um commit no projeto e avise-nos via e-mail quando finalizar (junto com o link para o seu repositório).
-
-OU (ganha pontos a mais):
-
-* Clone esse repositório para sua máquina.
+* Clone este repositório para sua máquina.
 * Crie uma branch com o nome *teste-front-end-SEUNOME*.
 * Faça um commit da sua branch.
 * Dê um pull request da sua branch.
+* Avise-nos por e-mail que o pull request foi feito (rtapia@haoc.com.br)
 
-## Quais tecnologias deve usar
+## Quais tecnologias você pode utilizar?
 
-Atente-se a essas requisições, a falta de uma ou mais delas será motivo de penalização.
+Você pode escolher uma ou mais tecnologias para a entrega, exceto o framework Javascript, que é requisito que a entrega seja feita em um deles:
 
+* Angular (versão 9 ou superior), ReactJS, Vuejs (um destes frameworks é requisito);
 * Bootstrap como framework para construção do layout;
-* HTML compatível com IE8+ (Cross-browsing);
-* CSS semântico utilizando alguma metodologia de desenvolvimento: ([BEM](http://getbem.com/introduction/), [OOCSS](http://oocss.org/), [SMACSS](https://smacss.com/) ou [SUITCSS](https://suitcss.github.io/));
-* JavaScript (Vanilla é sempre um ponto a mais);
-* Lighthouse para teste de SEO, acessibilidade e performance;
-* FontAwesome para ícones de redes sociais o outros presentes nas páginas.
+* Material Components;
+* HTML compatível com IE8+, Chrome, Firefox e Safari (Cross-browsing);
+* FontAwesome para ícones e outros elementos gráficos presentes nas páginas;
+* Qualquer outra que julgar necessário ou que estiver familiaridade.
+
+## O que será avaliado?
+
+* Clareza do código
+* Código 100% responsivo
+* HMTL Limpo, claro e organizado
+* Controle correto das rotas da aplicação
+* Uso correto do Git
+* Conhecimento de JS
+* Testes Unitários (pode usar qualquer tecnologia).
 
 ## Pontos extras
 
-Seria muito interessante se você pudesse trabalhar com algumas das tecnologias abaixo (Já que utilizamos todas elas no dia-a-dia :D)
+Seria muito interessante se você pudesse trabalhar com algumas das tecnologias abaixo (Já que utilizamos todas elas no dia-a-dia)
 
-* Uso de pré-processador HTML (Pug ou Haml) + Modular/Componentizado;
+* Uso de pré-processador HTML  + Modular/Componentizado;
 * Uso de pré-processador CSS (SCSS/SASS, Stylus ou PostCSS) + Modular/Componentizado;
-* Uso de vanilla JS + design/module pattern (Ex.: ExtJS, Dojo...);
 * Uso de ES6 / ES7;
-* Uso de task-runners (Gulp ou Grunt) ou até mesmo bundler (Webpack);
-* Implementação de animações em componentes da página (Parallax, mouseover...);
-* Implementação de PHP para qualquer envio de formulário ou necessidade específica (Ex.: Contato);
-* Implementação de uma RestAPI para exibição de algum conteúdo que se encaixe na página (Ex.: Comentários) - [JSON Placeholder](https://jsonplaceholder.typicode.com/);
+* Implementação de chamada para uma RestAPI em qualquer um dos formulários existentes no projeto;
+* Implementação de uma RestAPI para receber conteúdo de um dos formulários do projeto - [JSON Placeholder](https://jsonplaceholder.typicode.com/);
 * Funcionalidades/tecnologias extras no geral serão sempre bem-vindas, desde que explicadas e bem codadas.
 
-Caso tenha ficado alguma dúvida entre em contato com [lucas@superaremedia.com.br](mailto:lucas@superaremedia.com.br).
+Caso tenha ficado alguma dúvida entre em contato com [rtapia@haoc.com.br](mailto:rtapia@haoc.com.br).
 
 ---
 
