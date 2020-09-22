@@ -15,12 +15,12 @@ O tempo ideal para realização da tarefa é de **3 dias**. Também consideramos
 
 A forma de entregar o projeto deve ser feita pelo GitHub, através do processo descrito abaixo:
 
-* Clone este repositório para sua máquina.
-* Crie uma branch com o nome *teste-front-end-SEUNOME*.
-* Faça um commit da sua branch.
-* Dê um pull request da sua branch.
-* Avise-nos por e-mail que o pull request foi feito (rtapia@haoc.com.br)
-* Entregar um arquivo md com um descritivo (simples) de como executar a aplicação
+* Clone este repositório para sua máquina;
+* Crie uma branch com o nome *teste-front-end-SEUNOME*;
+* Faça um commit da sua branch;
+* Dê um pull request da sua branch;
+* Avise-nos por e-mail que o pull request foi feito (rtapia@haoc.com.br);
+* Entregar um arquivo md com um descritivo passo-a-passo (simples) de como executar a aplicação.
 
 ## Quais tecnologias você pode utilizar?
 
@@ -31,7 +31,7 @@ Você pode escolher uma ou mais tecnologias para a entrega, exceto o framework J
 * Material Components;
 * HTML compatível com IE8+, Chrome, Firefox e Safari (Cross-browsing);
 * FontAwesome para ícones e outros elementos gráficos presentes nas páginas;
-* Qualquer outra que julgar necessário ou que estiver familiaridade.
+* Qualquer outra que julgar necessário ou que tiver familiaridade.
 
 ## O que será avaliado?
 
