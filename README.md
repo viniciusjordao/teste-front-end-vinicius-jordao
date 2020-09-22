@@ -20,6 +20,7 @@ A forma de entregar o projeto deve ser feita pelo GitHub, através do processo d
 * Faça um commit da sua branch.
 * Dê um pull request da sua branch.
 * Avise-nos por e-mail que o pull request foi feito (rtapia@haoc.com.br)
+* Entregar um arquivo md com um descritivo (simples) de como executar a aplicação
 
 ## Quais tecnologias você pode utilizar?
 
