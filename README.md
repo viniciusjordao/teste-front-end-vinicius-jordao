@@ -54,3 +54,5 @@ Seria muito interessante se você pudesse trabalhar com algumas das tecnologias 
 * Funcionalidades/tecnologias extras no geral serão sempre bem-vindas, desde que explicadas e bem codadas.
 
 Caso tenha ficado alguma dúvida entre em contato com [rtapia@haoc.com.br](mailto:rtapia@haoc.com.br).
+
+Boa sorte!
