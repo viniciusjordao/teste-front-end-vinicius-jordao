@@ -43,7 +43,7 @@ Você pode escolher uma ou mais tecnologias para a entrega, exceto o framework J
 * Conhecimento de JS
 * Testes Unitários (pode usar qualquer tecnologia).
 
-## Pontos extras
+## Pontos extras (diferencial)
 
 Seria muito interessante se você pudesse trabalhar com algumas das tecnologias abaixo (Já que utilizamos todas elas no dia-a-dia)
 
