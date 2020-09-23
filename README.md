@@ -1,59 +1,68 @@
-# Hospital Oswaldo Cruz - Teste Front-End
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Olá caro desenvolvedor front-end, nesse teste analisaremos seu conhecimento geral, velocidade de desenvolvimento e padrões de projeto utilizados. Abaixo explicaremos tudo o que será necessário, lembrando que, tecnologias mais recentes, aumento de complexidade, foco em performance, serão pontos positivos na avaliação.
+## Available Scripts
 
-## Descrição do teste
+In the project directory, you can run:
 
-Essa avaliação consiste em testar seus conhecimentos de HTML, CSS, JavaScript e demais tecnologias front-end. Você será responsável por desenvolver um layout simples, presente no link ao lado [Haoc-Projeto-Frontend](https://xd.adobe.com/view/997b3d87-a170-4efe-b127-0dcd0e25a7c3-cc28/), com elementos separados e devidamente detalhados.
+### `yarn start`
 
-O tempo ideal para realização da tarefa é de **3 dias**. Também consideramos que, se demorar pouco mais do que isso, mas entregar um projeto melhor estruturado e com tecnologias mais recentes, também será tão válido quanto o de 3 dias.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* Prazo ideal: 3 dias
-* Prazo máximo: 7 dias
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## O que você precisará fazer
+### `yarn test`
 
-A forma de entregar o projeto deve ser feita pelo GitHub, através do processo descrito abaixo:
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* Clone este repositório para sua máquina;
-* Crie uma branch com o nome *teste-front-end-SEUNOME*;
-* Faça um commit da sua branch;
-* Dê um pull request da sua branch;
-* Avise-nos por e-mail que o pull request foi feito (rtapia@haoc.com.br);
-* Entregar um arquivo md com um descritivo passo-a-passo (simples) de como executar a aplicação.
+### `yarn build`
 
-## Quais tecnologias você pode utilizar?
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Você pode escolher uma ou mais tecnologias para a entrega, exceto o framework Javascript, que é requisito que a entrega seja feita em um deles:
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-* Angular (versão 9 ou superior), ReactJS, Vuejs (um destes frameworks é requisito);
-* Bootstrap como framework para construção do layout;
-* Material Components;
-* HTML compatível com IE8+, Chrome, Firefox e Safari (Cross-browsing);
-* FontAwesome para ícones e outros elementos gráficos presentes nas páginas;
-* Qualquer outra que julgar necessário ou que tiver familiaridade.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## O que será avaliado?
+### `yarn eject`
 
-* Clareza do código
-* Código 100% responsivo
-* HMTL Limpo, claro e organizado
-* Controle correto das rotas da aplicação
-* Uso correto do Git
-* Conhecimento de JS
-* Testes Unitários (pode usar qualquer tecnologia).
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Pontos extras (diferencial)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Seria muito interessante se você pudesse trabalhar com algumas das tecnologias abaixo (Já que utilizamos todas elas no dia-a-dia)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* Uso de pré-processador HTML  + Modular/Componentizado;
-* Uso de pré-processador CSS (SCSS/SASS, Stylus ou PostCSS) + Modular/Componentizado;
-* Uso de ES6 / ES7;
-* Implementação de chamada para uma RestAPI em qualquer um dos formulários existentes no projeto;
-* Implementação de uma RestAPI para receber conteúdo de um dos formulários do projeto - [JSON Placeholder](https://jsonplaceholder.typicode.com/);
-* Funcionalidades/tecnologias extras no geral serão sempre bem-vindas, desde que explicadas e bem codadas.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Caso tenha ficado alguma dúvida entre em contato com [rtapia@haoc.com.br](mailto:rtapia@haoc.com.br).
+## Learn More
 
-console.log('Boa sorte!')
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
