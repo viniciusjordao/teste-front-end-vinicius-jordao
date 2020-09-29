@@ -1,0 +1,19 @@
+{
+   "sintomas":[
+      {
+         "id":"01",
+         "texto":"Dor no peito, tipo aperto, não relacionada ao movimento, podendo irradiar para as costas, braço, estômago ou pescoço, podendo ser acompanhada de falta de ar",
+         "apresenta":false
+      },
+      {
+         "id":"02",
+         "texto":"Sensação de “batedeira” no peito ou coração acelerado",
+         "apresenta":false
+      },
+      {
+         "id":"03",
+         "texto":"Perda de força em um dos lados do corpo e/ou face",
+         "apresenta":false
+      }
+   ]
+}

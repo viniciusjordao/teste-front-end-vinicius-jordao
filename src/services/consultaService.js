@@ -1,6 +1,6 @@
 // @flow
 import { ajax } from 'rxjs/ajax';
-import consulta from 'consulta.json'
+import consulta from './mocks/consulta.json'
 
 // export type WithPagination = {
 // 	PageIndex: number,

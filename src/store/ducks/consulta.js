@@ -65,8 +65,8 @@ const consultaReducer = (
 		// 	return { ...state, ...payload, fetching: false };
 		// case Types.CREATE_EVENT_ERROR:
 		// 	return { ...state, ...payload, fetching: false };
-		// default:
-		// 	return state;
+		default:
+			return state;
 	}
 };
 
@@ -78,11 +78,11 @@ export const getConsultaResponse = ({ response }: { response: {} }) => ({ type: 
 export const getConsultaErrorResponse = ({ response }: { response: {} }) => ({ type: Types.GET_CONSULTA_ERROR, payload: { ...response, data: { items: [] } } });
 
 // Epics
-const getConsultaEpic = action$ =>
+const getConsultaEpic = action$ => 
 	action$
 		.ofType(Types.GET_EVENTS)
 		.pipe(
-			switchMap(({ payload }) =>
+			switchMap(({ payload }) => 
 				getConsulta(payload)
 					.pipe(
 						distinctUntilChanged(),

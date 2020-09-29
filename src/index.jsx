@@ -12,7 +12,6 @@ ReactDOM.render(
   <Provider  store={store} >
     <Pages />
   </Provider>,
-  <p>iushdiausd</p>,
   document.querySelector('#root'),
 );
 
