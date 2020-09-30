@@ -82,13 +82,17 @@ const getConsultaEpic = action$ =>
 	action$
 		.ofType(Types.GET_EVENTS)
 		.pipe(
-			switchMap(({ payload }) => 
-				getConsulta(payload)
-					.pipe(
+			switchMap(({ payload }) => {
+				debugger;
+				console.log(payload);
+				return ( getConsulta(payload)
+						.pipe(
 						distinctUntilChanged(),
 						map(getConsultaResponse),
 						catchError((error) => of(getConsultaErrorResponse(error))),
-					),
+					)
+				);
+						}
 			),
 		);
 

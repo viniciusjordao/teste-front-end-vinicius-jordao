@@ -36,6 +36,11 @@ Pages.defaultProps = {
 			exact: true,
 			component: lazy(() => import('./Home/Home')),
 		},
+		{
+			path: '/sintomas',
+			exact: true,
+			component: lazy(() => import('./Symptons/Symptons')),
+		},
 	],
 };
 
