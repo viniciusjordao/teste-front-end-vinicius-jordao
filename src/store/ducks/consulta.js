@@ -40,22 +40,25 @@ export const Types = {
     GET_CONSULTA_ERROR: '@@consulta/GET_ALL_ERROR',
 };
 
-const initialState: StateTyped<Event> = {
+const initialState: StateTyped<Consulta> = {
 	errorMessages: [],
 	success: false,
 	fetching: false,
 }
 
 const consultaReducer = (
-	state: StateTyped<Event> = initialState,
+	state: StateTyped<Consulta> = initialState,
 	{ type, payload }: Action,
-): StateTyped<Event> => {
+): StateTyped<Consulta> => {
 	switch (type) {
 		// GET_ALL
 		case Types.GET_CONSULTA:
+			// console.log('dsadasd');
+			
 			return { ...state, ...payload, fetching: true, success: false };
+			
 		case Types.GET_CONSULTA_SUCCESS:
-			return { ...state, ...payload, fetching: false };
+			return { ...state, ...payload, fetching: false, data:{...payload} };
 		case Types.GET_EVENTS_ERROR:
 			return { ...state, ...payload, fetching: false };
 		// // CREATE
@@ -75,16 +78,14 @@ const consultaReducer = (
 // GET_ALL
 export const getConsultaDispatcher = (payload: Consulta) => ({ type: Types.GET_CONSULTA, payload });
 export const getConsultaResponse = ({ response }: { response: {} }) => ({ type: Types.GET_CONSULTA_SUCCESS, payload: { ...response } });
-export const getConsultaErrorResponse = ({ response }: { response: {} }) => ({ type: Types.GET_CONSULTA_ERROR, payload: { ...response, data: { items: [] } } });
+export const getConsultaErrorResponse = ({ response }: { response: {} }) => ({ type: Types.GET_CONSULTA_ERROR, payload: { ...response, data: { sintomas: [] } } });
 
 // Epics
 const getConsultaEpic = action$ => 
 	action$
-		.ofType(Types.GET_EVENTS)
+		.ofType(Types.GET_CONSULTA)
 		.pipe(
 			switchMap(({ payload }) => {
-				debugger;
-				console.log(payload);
 				return ( getConsulta(payload)
 						.pipe(
 						distinctUntilChanged(),

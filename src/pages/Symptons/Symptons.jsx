@@ -1,28 +1,37 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useLayoutEffect, useEffect } from 'react';
 import Layout from '../../containers/Layout/Layout'
 import { connect } from 'react-redux';
 import { getConsultaDispatcher, type Consulta } from '../../store/ducks/consulta';
 import { type State } from '../../store/ducks';
 
 export type Props = {
-	...State,
 	getConsulta: (payload: any) => {},
 };
 
-export const Symptons = ({getConsulta}:Props) => {
+export const Symptons = ({fetching, data, sintomas, getConsulta}:Props) => {
+    // const GetConsulta = useCallback(() => {
+	// 	getConsulta({
+	// 	});
+	// }, [getConsulta]);
 
-    const GetConsulta = useCallback(() => {
-		getConsulta({
-		});
-	}, [getConsulta]);
+	// useLayoutEffect(() => {
+	// 	GetConsulta();
+	// 		return () => { }
+	// }, [fetching, sintomas , GetConsulta]);
 
-	getConsulta();
-
-	console.log(getConsulta());
-
+	useEffect(() => {
+		getConsulta();
+	}, [])
+	console.log(fetching, data, 'tteste');
   return (
     <Layout>
     <div className="home">
+  { data?.sintomas.map((consulta: Consulta) => ( 
+	  <div>
+	  <h2>{consulta.id}</h2>
+	  <p>{consulta.texto}</p>
+	  </div>
+  ))}
         Sintomas
     </div>
     </Layout>

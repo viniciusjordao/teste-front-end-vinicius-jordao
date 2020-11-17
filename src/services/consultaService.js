@@ -1,6 +1,5 @@
 // @flow
 import { ajax } from 'rxjs/ajax';
-import consulta from './mocks/consulta.json'
 
 // export type WithPagination = {
 // 	PageIndex: number,
@@ -40,14 +39,17 @@ type HeadersProps = {
 
 // export const withOptionalParams = (key: string) => (value: string | number) => `${value ? `&${key}=${value}` : ''}`;
 
-export const getConsulta = (headers?: HeadersProps) => ajax.get(
-	consulta
+export const getConsulta = (headers?: HeadersProps) => {
+
+	return ajax.get( 
+	'./mocks/consulta.json'
 	,
 	{
 		'Content-Type': 'application/json',
 		...headers,
 	},
 );
+}
 
 // export const postEvent = (body: EventRequestBody, headers?: HeadersProps) => ajax.post(`${url}`, { ...body }, {
 // 	'Content-Type': 'application/json',

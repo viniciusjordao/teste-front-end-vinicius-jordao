@@ -3,12 +3,13 @@ import React from 'react';
 import { oneOfType, element, arrayOf } from 'prop-types';
 import Header from '../Header/Header';
 import styled from 'styled-components';
-// import './Home.scss';
 
 export const Container = styled.div`
 	width:100%;
 	margin: 24px 0 0 85px;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
 
 `;
 

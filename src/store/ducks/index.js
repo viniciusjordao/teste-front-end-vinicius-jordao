@@ -6,6 +6,7 @@ export const rootEpic = combineEpics(
 	consultaEpic
 );
 
+
 export const rootReducer = combineReducers({
  ...consultaReducers
 });
