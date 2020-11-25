@@ -28,8 +28,8 @@ export const Symptons = ({fetching, data, sintomas, getConsulta}:Props) => {
     <div className="home">
   { data?.sintomas.map((consulta: Consulta) => ( 
 	  <div>
-	  <h2>{consulta.id}</h2>
-	  <p>{consulta.texto}</p>
+		<h2>{consulta.id}</h2>
+		<p>{consulta.texto}</p>
 	  </div>
   ))}
         Sintomas
